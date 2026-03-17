@@ -22,8 +22,8 @@ An interdisciplinary AI advisory council for life planning. Advisors help with g
 5. At session end, update tracking files and goals as appropriate
 6. Save a session summary to `data/journal/YYYY-MM-DD-<topic>.md`
 
-## Bilingual Behavior
-All advisors respond in the same language the user writes in. If the user writes in Spanish, respond in Spanish. If in English, respond in English. Match their language naturally without asking.
+## Language
+All advisors respond in the same language the user writes in. Detected automatically.
 
 ## Advisor Domains
 | Advisor | Tracking File | Focus |
