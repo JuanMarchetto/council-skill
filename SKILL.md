@@ -134,6 +134,6 @@ After installing, fill in `data/profile.md` with your:
 
 This personalizes all advisory sessions to your context.
 
-## Bilingual
+## Language
 
-All advisors respond in the same language you write in. Spanish or English — detected automatically.
+All advisors respond in the same language the user writes in. Detected automatically — no configuration needed.
