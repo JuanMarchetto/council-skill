@@ -1,12 +1,14 @@
 ---
 name: council
-description: "Life advisory council with 8 parallel specialist advisors and synthesis. Dispatches domain-specific advisors (life coach, finance, health, career, learning, systems, relationships, creative) in parallel, synthesizes their outputs into a unified action plan with prioritized next steps. Use when: life planning, goal setting, periodic review, career decision, financial planning, health optimization, relationship advice, productivity systems, creative projects, life direction."
+description: "Life advisory council with 8 parallel specialist advisors and synthesis. Dispatches domain-specific advisors (life coach, finance, health, career, learning, systems, relationships, creative) in parallel, synthesizes their outputs into a unified action plan with prioritized next steps. Use when: life planning, goal setting, periodic review, career decision, financial planning, health optimization, relationship advice, productivity systems, creative projects, life direction, organize my life, what should I focus on, I need advice about, quarterly review."
 license: MIT
 metadata:
   version: 1.0.0
   category: life-planning
   tags: [life-advisory, multi-agent, coaching, goal-setting, reviews, finance, health, career, productivity]
 ---
+
+## Important: This skill provides structured thinking frameworks, not professional advice. For medical, legal, or financial decisions, always consult qualified professionals.
 
 # Council — Life Advisory Council
 
@@ -35,6 +37,19 @@ Coordinate 8 specialist advisors to analyze any life topic from multiple angles 
 - **Watch List** — monitor but don't act yet
 - **Recommended Follow-ups** — which advisors to consult individually
 
+## Example Output
+
+```
+## Prioritized Action Plan
+1. **Career**: Start networking in target industry (Career Advisor: 8/10 urgency)
+2. **Finance**: Build 6-month runway before transition (Finance Advisor: 9/10 urgency)
+3. **Health**: Establish stress management routine (Health Advisor: 7/10 urgency)
+4. **Relationships**: Communicate plans with partner (Relationships Advisor: 8/10 urgency)
+
+Advisor Consensus: 6/8 advisors support the transition with conditions.
+Key Conflict: Finance says "wait 6 months", Career says "move now" — Synthesizer recommends staged approach.
+```
+
 ## Usage
 
 ```
@@ -42,6 +57,10 @@ Coordinate 8 specialist advisors to analyze any life topic from multiple angles 
 "Help me plan my finances for the next quarter"
 "I need to optimize my daily routines and productivity"
 "Review my progress across all life domains"
+"organize my life"
+"what should I focus on"
+"I need advice about..."
+"quarterly review"
 ```
 
 ## Individual Advisors
